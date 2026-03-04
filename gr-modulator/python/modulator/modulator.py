@@ -9,7 +9,6 @@
 
 import numpy as np
 from gnuradio import gr
-import bitarray
 
 # This function returns a vector of bits for the coresponding chars
 # The bits order is big-endian, meaning the most significant bit of each character comes first in the output vector.
@@ -40,15 +39,20 @@ class modulator(gr.sync_block):
         bit_array = str_to_bits(self.input_str)
         for bit in bit_array:
             if bit == 0:
-                self.sample_queue.append(1.0, -1.0, -1.0) # '0' is represented by [1.0, -1.0, -1.0]
+                self.sample_queue.extend([1.0, -1.0, -1.0]) # '0' is represented by [1.0, -1.0, -1.0]
             else:
-                self.sample_queue.append(1.0, 1.0, -1.0) # '1' is represented by [1.0, 1.0, -1.0]
+                self.sample_queue.extend([1.0, 1.0, -1.0]) # '1' is represented by [1.0, 1.0, -1.0]
+
+        self.sample_queue = np.repeat(self.sample_queue, self.sps).tolist() # Repeat each part to fill the symbol duration
+
 
     def work(self, input_items, output_items):
         out = output_items[0]
+        print(len(out))
         for i in range(0, len(out) - 1):
             if self.sample_queue:
                 out[i] = self.sample_queue.pop(0)
             else:
                 out[i] = 0.0 # Fill the rest with zeros if the queue is empty
+
         return len(output_items[0])

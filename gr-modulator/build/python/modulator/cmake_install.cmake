@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/opt/homebrew/Cellar/gnuradio/3.10.12.0_10")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.14/site-packages/gnuradio/modulator" TYPE FILE FILES
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/libexec/venv/lib/python3.14/site-packages/gnuradio/modulator" TYPE FILE FILES
     "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/python/modulator/__init__.py"
     "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/python/modulator/modulator.py"
     )
