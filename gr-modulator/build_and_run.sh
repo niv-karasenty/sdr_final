@@ -1,1 +1,3 @@
-bash build.s
+bash build.sh
+cd ../../helper_bash_commands
+gnuradio-companion

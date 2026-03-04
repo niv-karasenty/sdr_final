@@ -63,8 +63,8 @@ class untitled(gr.top_block, Qt.QWidget):
         # Variables
         ##################################################
         self.t = t = 1
-        self.samp_rate = samp_rate = 32000
-        self.input_string = input_string = 'AAAAA'
+        self.samp_rate = samp_rate = 1
+        self.input_string = input_string = 'A'
 
         ##################################################
         # Blocks

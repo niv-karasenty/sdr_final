@@ -1,1 +1,1 @@
-python3 ../print_output_file.py
+python3 ../grc_files/output_handle.py
