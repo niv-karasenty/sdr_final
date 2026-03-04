@@ -1,0 +1,6 @@
+/usr/local/include/gnuradio/modulator/api.h
+/usr/local/lib/python3.14/site-packages/gnuradio/modulator/__init__.py
+/usr/local/lib/python3.14/site-packages/gnuradio/modulator/modulator.py
+/usr/local/share/gnuradio/grc/blocks/modulator_modulator.block.yml
+/usr/local/lib/cmake/gnuradio-modulator/gnuradio-modulatorConfig.cmake
+/usr/local/share/gnuradio/manifests/modulator/MANIFEST-1.0.00.yml

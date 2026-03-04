@@ -1,0 +1,15 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/cmake_install.cmake",
+		"/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/include/gnuradio/modulator/cmake_install.cmake",
+		"/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/lib/cmake_install.cmake",
+		"/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/apps/cmake_install.cmake",
+		"/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/examples/cmake_install.cmake",
+		"/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/docs/cmake_install.cmake",
+		"/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/python/modulator/cmake_install.cmake",
+		"/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/python/modulator/bindings/cmake_install.cmake",
+		"/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/grc/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
