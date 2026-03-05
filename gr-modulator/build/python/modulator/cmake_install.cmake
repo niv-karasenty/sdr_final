@@ -46,6 +46,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/libexec/venv/lib/python3.14/site-packages/gnuradio/modulator" TYPE FILE FILES
     "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/python/modulator/__init__.py"
     "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/python/modulator/modulator.py"
+    "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/python/modulator/demodulate.py"
     )
 endif()
 

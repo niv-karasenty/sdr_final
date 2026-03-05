@@ -1,6 +1,8 @@
 /opt/homebrew/Cellar/gnuradio/3.10.12.0_10/include/gnuradio/modulator/api.h
 /opt/homebrew/Cellar/gnuradio/3.10.12.0_10/libexec/venv/lib/python3.14/site-packages/gnuradio/modulator/__init__.py
 /opt/homebrew/Cellar/gnuradio/3.10.12.0_10/libexec/venv/lib/python3.14/site-packages/gnuradio/modulator/modulator.py
+/opt/homebrew/Cellar/gnuradio/3.10.12.0_10/libexec/venv/lib/python3.14/site-packages/gnuradio/modulator/demodulate.py
 /opt/homebrew/Cellar/gnuradio/3.10.12.0_10/share/gnuradio/grc/blocks/modulator_modulator.block.yml
+/opt/homebrew/Cellar/gnuradio/3.10.12.0_10/share/gnuradio/grc/blocks/modulator_demodulate.block.yml
 /opt/homebrew/Cellar/gnuradio/3.10.12.0_10/lib/cmake/gnuradio-modulator/gnuradio-modulatorConfig.cmake
 /opt/homebrew/Cellar/gnuradio/3.10.12.0_10/share/gnuradio/manifests/modulator/MANIFEST-1.0.00.yml

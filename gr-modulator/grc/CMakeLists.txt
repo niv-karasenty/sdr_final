@@ -6,4 +6,5 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 #
 install(FILES
-    modulator_modulator.block.yml DESTINATION share/gnuradio/grc/blocks)
+    modulator_modulator.block.yml
+    modulator_demodulate.block.yml DESTINATION share/gnuradio/grc/blocks)

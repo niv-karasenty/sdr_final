@@ -38,7 +38,10 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gnuradio/grc/blocks" TYPE FILE FILES "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/grc/modulator_modulator.block.yml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gnuradio/grc/blocks" TYPE FILE FILES
+    "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/grc/modulator_modulator.block.yml"
+    "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/grc/modulator_demodulate.block.yml"
+    )
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT

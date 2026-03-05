@@ -49,6 +49,7 @@ class modulator(gr.sync_block):
     def work(self, input_items, output_items):
         out = output_items[0]
         out[:] = 0.0 # Initialize output with zeros
+        print(self.sample_queue)
         for i in range(len(out)):
             if len(self.sample_queue) > 0:
                 out[i] = self.sample_queue.pop(0) # Output the next sample from the queue

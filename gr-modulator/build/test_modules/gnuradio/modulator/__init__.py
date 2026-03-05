@@ -21,5 +21,6 @@ except ModuleNotFoundError:
 
 # import any pure python here
 from .modulator import modulator
+from .demodulate import demodulate
 
 #
