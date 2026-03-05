@@ -40,19 +40,17 @@ class demodulate(gr.sync_block):
 
         for i in range(0,8):
             symbol = self.byte_to_demod[i*self.sps:(i+1)*self.sps]
-            # if np.correlate(symbol, symbol_0) > np.correlate(symbol, symbol_1):
-            if np.array_equal(symbol, symbol_0):
+            if np.correlate(symbol, symbol_0) > np.correlate(symbol, symbol_1):
                 bit_array.append(0)
-                print('0')
-            elif np.array_equal(symbol, symbol_1):
+            elif np.correlate(symbol, symbol_1) > np.correlate(symbol, symbol_0):
                 bit_array.append(1)
-                print('1')
-            else:
+            else: # If no bit was detected, we assume the packet is corrupted and stop demodulating
                 self.demodulating_flag = False
                 self.preamble_to_check = np.array([])
                 self.byte_to_demod = np.array([])
                 return
             
+        # Bits to char
         char_bits = bit_array
         char_bits = "".join(map(str,char_bits))
         char_bits = int(char_bits,2)
@@ -68,6 +66,7 @@ class demodulate(gr.sync_block):
             return False
 
 
+    # Standard work function, this will be activated every time we have a packet comming in
     def work(self, input_items, output_items):
         in0 = input_items[0]
         sample_counter = 0

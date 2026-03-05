@@ -70,7 +70,7 @@ class untitled(gr.top_block, Qt.QWidget):
         ##################################################
 
         self.modulator_modulator_0 = modulator.modulator(t, samp_rate, input_string)
-        self.modulator_demodulate_0 = modulator.demodulate(t, samp_rate, 0, 0)
+        self.modulator_demodulate_0 = modulator.demodulate(t, samp_rate, 1, 10)
         self.blocks_throttle2_0 = blocks.throttle( gr.sizeof_float*1, samp_rate, True, 0 if "auto" == "auto" else max( int(float(0.1) * samp_rate) if "auto" == "time" else int(0.1), 1) )
 
 

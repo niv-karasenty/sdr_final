@@ -40,10 +40,9 @@ class demodulate(gr.sync_block):
 
         for i in range(0,8):
             symbol = self.byte_to_demod[i*self.sps:(i+1)*self.sps]
-            # if np.correlate(symbol, symbol_0) > np.correlate(symbol, symbol_1):
-            if np.array_equal(symbol, symbol_0):
+            if np.correlate(symbol, symbol_0) > np.correlate(symbol, symbol_1):
                 bit_array.append(0)
-            elif np.array_equal(symbol, symbol_1):
+            elif np.correlate(symbol, symbol_1) > np.correlate(symbol, symbol_0):
                 bit_array.append(1)
             else: # If no bit was detected, we assume the packet is corrupted and stop demodulating
                 self.demodulating_flag = False

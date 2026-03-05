@@ -98,8 +98,8 @@ blocks:
     comment: ''
     samp_rate: samp_rate
     t: t
-    threshold: '0'
-    timeout: '0'
+    threshold: '1'
+    timeout: '10'
   states:
     bus_sink: false
     bus_source: false
