@@ -31,7 +31,8 @@ class modulator(gr.sync_block):
         self.input_str = input_str
         self.sps = int(self.samp_rate * self.t * 3) # samples per symbol
         self.preamble = -1.0
-        self.sample_queue = [self.preamble] # Start with preamble
+        self.sample_queue = np.array([self.preamble]) # Start with preamble
+        self.item_number = 0
 
         self.enqueue_from_string()
 
@@ -39,18 +40,23 @@ class modulator(gr.sync_block):
         bit_array = str_to_bits(self.input_str)
         for bit in bit_array:
             if bit == 0:
-                self.sample_queue.extend([1.0, -1.0, -1.0]) # '0' is represented by [1.0, -1.0, -1.0]
+                self.sample_queue = np.append(self.sample_queue, [1.0, -1.0, -1.0]) # '0' is represented by [1.0, -1.0, -1.0]
             else:
-                self.sample_queue.extend([1.0, 1.0, -1.0]) # '1' is represented by [1.0, 1.0, -1.0]
+                self.sample_queue = np.append(self.sample_queue, [1.0, 1.0, -1.0]) # '1' is represented by [1.0, 1.0, -1.0]
 
-        self.sample_queue = np.repeat(self.sample_queue, self.sps).tolist() # Repeat each part to fill the symbol duration
+        self.sample_queue = np.repeat(self.sample_queue, self.sps/3).tolist() # Repeat each part to fill the symbol duration
 
 
     def work(self, input_items, output_items):
         out = output_items[0]
         out[:] = 0.0 # Initialize output with zeros
-        print(self.sample_queue)
+        print('another packet')
         for i in range(len(out)):
-            if len(self.sample_queue) > 0:
-                out[i] = self.sample_queue.pop(0) # Output the next sample from the queue
+            if len(self.sample_queue) > self.item_number:
+                out[i] = self.sample_queue[self.item_number] # Output the next sample from the queue
+                self.item_number += 1
+
+        print(out)
+
+        print(len(out))
         return len(output_items[0])

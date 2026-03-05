@@ -21,6 +21,14 @@ parameters:
   label: sample rate
   dtype: int
 
+- id: threshold
+  label: threshold
+  dtype: float
+
+- id: timeout
+  label: timeout
+  dtype: float
+
 #  Make one 'inputs' list entry per input and one 'outputs' list entry per output.
 #  Keys include:
 #      * label (an identifier for the GUI)
@@ -32,8 +40,6 @@ inputs:
 - label: input
   domain: stream
   dtype: float
-
-outputs:
 
 
 #  'file_format' specifies the version of the GRC yml format used in the file
