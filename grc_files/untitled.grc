@@ -69,6 +69,18 @@ blocks:
     coordinate: [184, 8.0]
     rotation: 0
     state: enabled
+- name: threshold
+  id: variable
+  parameters:
+    comment: ''
+    value: 1e-3
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [376, 8.0]
+    rotation: 0
+    state: enabled
 - name: blocks_throttle2_0
   id: blocks_throttle2
   parameters:
@@ -87,7 +99,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [312, 168.0]
+    coordinate: [360, 176.0]
     rotation: 0
     state: enabled
 - name: modulator_demodulate_0
@@ -98,13 +110,13 @@ blocks:
     comment: ''
     samp_rate: samp_rate
     t: t
-    threshold: '1'
+    threshold: 1e-3
     timeout: '10'
   states:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [488, 160.0]
+    coordinate: [704, 168.0]
     rotation: 0
     state: enabled
 - name: modulator_modulator_0
@@ -122,7 +134,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [160, 164.0]
+    coordinate: [88, 172.0]
     rotation: 0
     state: enabled
 

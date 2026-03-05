@@ -21,12 +21,13 @@ class demodulate(gr.sync_block):
             out_sig=None)
         self.t = t
         self.samp_rate = samp_rate
-        self.threshold = threshold
-        self.timeout = timeout
+        self.threshold = threshold # Threshold for deciding whether a bit is 0 or 1 based on correlation values
+        self.timeout = timeout # Number of symbols up to we ignore no bits found
         self.sps = int(self.samp_rate * self.t * 3) # samples per symbol
         self.preamble = np.repeat(-1.0, self.sps/3)
         self.string = ''
         self.demodulating_flag = False
+        self.time_out_counter = 0
         self.preamble_to_check = np.array([])
         self.byte_to_demod = np.array([]) # This array will hold the samples for one byte
 
@@ -40,15 +41,15 @@ class demodulate(gr.sync_block):
 
         for i in range(0,8):
             symbol = self.byte_to_demod[i*self.sps:(i+1)*self.sps]
-            if np.correlate(symbol, symbol_0) > np.correlate(symbol, symbol_1):
-                bit_array.append(0)
-            elif np.correlate(symbol, symbol_1) > np.correlate(symbol, symbol_0):
-                bit_array.append(1)
+            if np.correlate(symbol, symbol_0)/(self.sps/3) > self.threshold or np.correlate(symbol, symbol_1)/(self.sps/3) > self.threshold:
+                if np.correlate(symbol, symbol_0)/(self.sps/3) > np.correlate(symbol, symbol_1)/(self.sps/3):
+                    bit_array.append(0)
+                else:
+                    bit_array.append(1)
+                self.time_out_counter = 0 # Reset timeout counter if we found a bit
             else: # If no bit was detected, we assume the packet is corrupted and stop demodulating
-                self.demodulating_flag = False
-                self.preamble_to_check = np.array([])
-                self.byte_to_demod = np.array([])
-                return
+                self.time_out_counter += 1
+                bit_array.append(0) # We can append either 0 or 1 here, we choose 0
             
         # Bits to char
         char_bits = bit_array
@@ -60,7 +61,8 @@ class demodulate(gr.sync_block):
     # Without noise we just need to check wether the pre amble is the same as the one we check.
     # For later versions must be adjusted
     def check_preamble(self):
-        if np.array_equal(self.preamble_to_check, self.preamble):
+        if np.correlate(self.preamble_to_check, self.preamble)/(self.sps/3) > self.threshold: # If the correlation is above the threshold, we assume we found the preamble
+            print('Correlation value: ' + str(np.correlate(self.preamble_to_check, self.preamble)/(self.sps/3)))
             return True
         else:
             return False
@@ -85,12 +87,19 @@ class demodulate(gr.sync_block):
             if len(self.preamble_to_check) == len(self.preamble):
                 if self.check_preamble():
                     self.demodulating_flag = True
+                    print('Preamble found, starting demodulation')
                     break
                 else:
                     # If we haven't found the preamble yet, we need to keep checking the incoming samples
                     self.preamble_to_check = np.roll(self.preamble_to_check, -1)
                     self.preamble_to_check[-1] = in0[sample_counter]
                     sample_counter += 1
+
+        # Check if timeout has been reached
+        if self.time_out_counter > self.timeout: # If we have reached the timeout, we assume the packet is corrupted and stop demodulating
+            self.demodulating_flag = False
+            self.time_out_counter = 0
+            self.preamble_to_check = np.array([]) # Clear the preamble_to_check array for the next packet
 
         if self.demodulating_flag:
             while sample_counter < len(in0):

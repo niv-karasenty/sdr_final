@@ -1,1 +1,1 @@
- $(gnuradio-config-info --prefix)libexec/venv/bin/python3 ../grc_files/untitled.py
+ $(gnuradio-config-info --prefix)libexec/venv/bin/python3 ../grc_files/fm_modulation.py

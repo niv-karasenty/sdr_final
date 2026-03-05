@@ -61,6 +61,7 @@ class untitled(gr.top_block, Qt.QWidget):
         ##################################################
         # Variables
         ##################################################
+        self.threshold = threshold = 1e-3
         self.t = t = 1e-3
         self.samp_rate = samp_rate = 10000
         self.input_string = input_string = 'hello evereyone this is our try to get a message'
@@ -70,7 +71,7 @@ class untitled(gr.top_block, Qt.QWidget):
         ##################################################
 
         self.modulator_modulator_0 = modulator.modulator(t, samp_rate, input_string)
-        self.modulator_demodulate_0 = modulator.demodulate(t, samp_rate, 1, 10)
+        self.modulator_demodulate_0 = modulator.demodulate(t, samp_rate, 1e-3, 10)
         self.blocks_throttle2_0 = blocks.throttle( gr.sizeof_float*1, samp_rate, True, 0 if "auto" == "auto" else max( int(float(0.1) * samp_rate) if "auto" == "time" else int(0.1), 1) )
 
 
@@ -88,6 +89,12 @@ class untitled(gr.top_block, Qt.QWidget):
         self.wait()
 
         event.accept()
+
+    def get_threshold(self):
+        return self.threshold
+
+    def set_threshold(self, threshold):
+        self.threshold = threshold
 
     def get_t(self):
         return self.t

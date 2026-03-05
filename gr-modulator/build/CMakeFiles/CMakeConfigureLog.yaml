@@ -20,6 +20,7 @@ events:
     names:
       - "uname"
     candidate_directories:
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
@@ -40,6 +41,7 @@ events:
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
       - "/Users/nivkarasenty/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/uname"
       - "/opt/homebrew/bin/uname"
       - "/opt/homebrew/sbin/uname"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/uname"
@@ -50,6 +52,7 @@ events:
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -98,6 +101,7 @@ events:
       - "make"
       - "smake"
     candidate_directories:
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
@@ -118,6 +122,7 @@ events:
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
       - "/Users/nivkarasenty/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/gmake"
       - "/opt/homebrew/bin/gmake"
       - "/opt/homebrew/sbin/gmake"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/gmake"
@@ -137,6 +142,7 @@ events:
       - "/Users/nivkarasenty/.dotnet/tools/gmake"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/gmake"
       - "/Users/nivkarasenty/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/gmake"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/make"
       - "/opt/homebrew/bin/make"
       - "/opt/homebrew/sbin/make"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/make"
@@ -147,6 +153,7 @@ events:
     found: "/usr/bin/make"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -193,6 +200,7 @@ events:
       - "icx"
       - "clang++"
     candidate_directories:
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
@@ -213,6 +221,7 @@ events:
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
       - "/Users/nivkarasenty/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/c++"
       - "/opt/homebrew/bin/c++"
       - "/opt/homebrew/sbin/c++"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/c++"
@@ -223,6 +232,7 @@ events:
     found: "/usr/bin/c++"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -270,6 +280,7 @@ events:
     found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -374,6 +385,7 @@ events:
       - "ar"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
@@ -395,6 +407,7 @@ events:
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -436,6 +449,7 @@ events:
       - "ranlib"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
@@ -457,6 +471,7 @@ events:
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -498,6 +513,7 @@ events:
       - "strip"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
@@ -519,6 +535,7 @@ events:
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -560,6 +577,7 @@ events:
       - "ld"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
@@ -581,6 +599,7 @@ events:
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -622,6 +641,7 @@ events:
       - "nm"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
@@ -643,6 +663,7 @@ events:
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -684,6 +705,7 @@ events:
       - "objdump"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
@@ -705,6 +727,7 @@ events:
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -746,6 +769,7 @@ events:
       - "objcopy"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
@@ -766,6 +790,7 @@ events:
       - "/Users/nivkarasenty/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/usr/bin/objcopy"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/objcopy"
       - "/opt/homebrew/bin/objcopy"
       - "/opt/homebrew/sbin/objcopy"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/objcopy"
@@ -787,6 +812,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -828,6 +854,7 @@ events:
       - "readelf"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
@@ -848,6 +875,7 @@ events:
       - "/Users/nivkarasenty/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/usr/bin/readelf"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/readelf"
       - "/opt/homebrew/bin/readelf"
       - "/opt/homebrew/sbin/readelf"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/readelf"
@@ -869,6 +897,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -910,6 +939,7 @@ events:
       - "dlltool"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
@@ -930,6 +960,7 @@ events:
       - "/Users/nivkarasenty/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/usr/bin/dlltool"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/dlltool"
       - "/opt/homebrew/bin/dlltool"
       - "/opt/homebrew/sbin/dlltool"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
@@ -951,6 +982,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -992,6 +1024,7 @@ events:
       - "addr2line"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
@@ -1012,6 +1045,7 @@ events:
       - "/Users/nivkarasenty/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/usr/bin/addr2line"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/addr2line"
       - "/opt/homebrew/bin/addr2line"
       - "/opt/homebrew/sbin/addr2line"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/addr2line"
@@ -1033,6 +1067,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -1074,6 +1109,7 @@ events:
       - "tapi"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
@@ -1094,6 +1130,7 @@ events:
       - "/Users/nivkarasenty/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/usr/bin/tapi"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/tapi"
       - "/opt/homebrew/bin/tapi"
       - "/opt/homebrew/sbin/tapi"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
@@ -1115,6 +1152,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -1165,6 +1203,7 @@ events:
     found: "/usr/bin/cc"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -1212,6 +1251,7 @@ events:
     found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -1315,6 +1355,7 @@ events:
     names:
       - "install_name_tool"
     candidate_directories:
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
@@ -1335,6 +1376,7 @@ events:
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
       - "/Users/nivkarasenty/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/install_name_tool"
       - "/opt/homebrew/bin/install_name_tool"
       - "/opt/homebrew/sbin/install_name_tool"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/install_name_tool"
@@ -1345,6 +1387,7 @@ events:
     found: "/usr/bin/install_name_tool"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -1374,8 +1417,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-R9pghp"
-      binary: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-R9pghp"
+      source: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-a6fyzK"
+      binary: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-a6fyzK"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1388,19 +1431,19 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-R9pghp'
+        Change Dir: '/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-a6fyzK'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4396a/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4396a.dir/build.make CMakeFiles/cmTC_4396a.dir/build
-        Building CXX object CMakeFiles/cmTC_4396a.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_4396a.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_4396a.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_4396a.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4b3c3/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4b3c3.dir/build.make CMakeFiles/cmTC_4b3c3.dir/build
+        Building CXX object CMakeFiles/cmTC_4b3c3.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_4b3c3.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_4b3c3.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_4b3c3.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 17.0.0 (clang-1700.6.4.2)
         Target: arm64-apple-darwin25.3.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-R9pghp -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-R9pghp -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_4396a.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_4396a.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_4396a.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-a6fyzK -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-a6fyzK -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_4b3c3.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_4b3c3.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_4b3c3.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 17.0.0 (clang-1700.6.4.2) default target arm64-apple-darwin25.3.0
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
@@ -1414,13 +1457,13 @@ events:
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_4396a
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4396a.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_4b3c3
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b3c3.dir/link.txt --verbose=1
         Apple clang version 17.0.0 (clang-1700.6.4.2)
         Target: arm64-apple-darwin25.3.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_4396a -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_4396a.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_4b3c3 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_4b3c3.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1230.1
         BUILD 10:14:01 Jan  9 2026
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
@@ -1433,7 +1476,7 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_4396a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4396a
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_4b3c3.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4b3c3
         
       exitCode: 0
   -
@@ -1479,19 +1522,19 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-R9pghp']
+        ignore line: [Change Dir: '/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-a6fyzK']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4396a/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4396a.dir/build.make CMakeFiles/cmTC_4396a.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_4396a.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_4396a.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_4396a.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_4396a.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4b3c3/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4b3c3.dir/build.make CMakeFiles/cmTC_4b3c3.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_4b3c3.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_4b3c3.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_4b3c3.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_4b3c3.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.4.2)]
         ignore line: [Target: arm64-apple-darwin25.3.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-R9pghp -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-R9pghp -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_4396a.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_4396a.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_4396a.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-a6fyzK -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-a6fyzK -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_4b3c3.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_4b3c3.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_4b3c3.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.6.4.2) default target arm64-apple-darwin25.3.0]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
@@ -1505,13 +1548,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_4396a]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4396a.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_4b3c3]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b3c3.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.4.2)]
         ignore line: [Target: arm64-apple-darwin25.3.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_4396a -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_4396a.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_4b3c3 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_4b3c3.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1528,12 +1571,12 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_4396a] ==> ignore
+          arg [cmTC_4b3c3] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_4396a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_4b3c3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
@@ -1577,8 +1620,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-NmyUt1"
-      binary: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-NmyUt1"
+      source: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-KcRgnr"
+      binary: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-KcRgnr"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1590,18 +1633,18 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-NmyUt1'
+        Change Dir: '/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-KcRgnr'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0aac8/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0aac8.dir/build.make CMakeFiles/cmTC_0aac8.dir/build
-        Building C object CMakeFiles/cmTC_0aac8.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_0aac8.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_0aac8.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_0aac8.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fdca7/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fdca7.dir/build.make CMakeFiles/cmTC_fdca7.dir/build
+        Building C object CMakeFiles/cmTC_fdca7.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_fdca7.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_fdca7.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_fdca7.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         Apple clang version 17.0.0 (clang-1700.6.4.2)
         Target: arm64-apple-darwin25.3.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-NmyUt1 -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-NmyUt1 -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_0aac8.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_0aac8.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_0aac8.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-KcRgnr -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-KcRgnr -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_fdca7.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_fdca7.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_fdca7.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         clang -cc1 version 17.0.0 (clang-1700.6.4.2) default target arm64-apple-darwin25.3.0
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
@@ -1614,13 +1657,13 @@ events:
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
         End of search list.
-        Linking C executable cmTC_0aac8
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0aac8.dir/link.txt --verbose=1
+        Linking C executable cmTC_fdca7
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdca7.dir/link.txt --verbose=1
         Apple clang version 17.0.0 (clang-1700.6.4.2)
         Target: arm64-apple-darwin25.3.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_0aac8 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_0aac8.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_fdca7 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_fdca7.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1230.1
         BUILD 10:14:01 Jan  9 2026
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
@@ -1633,7 +1676,7 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_0aac8.dir/CMakeCCompilerABI.c.o -o cmTC_0aac8
+        /usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_fdca7.dir/CMakeCCompilerABI.c.o -o cmTC_fdca7
         
       exitCode: 0
   -
@@ -1677,18 +1720,18 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-NmyUt1']
+        ignore line: [Change Dir: '/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-KcRgnr']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0aac8/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0aac8.dir/build.make CMakeFiles/cmTC_0aac8.dir/build]
-        ignore line: [Building C object CMakeFiles/cmTC_0aac8.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_0aac8.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_0aac8.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_0aac8.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fdca7/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fdca7.dir/build.make CMakeFiles/cmTC_fdca7.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_fdca7.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_fdca7.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_fdca7.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_fdca7.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.4.2)]
         ignore line: [Target: arm64-apple-darwin25.3.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-NmyUt1 -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-NmyUt1 -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_0aac8.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_0aac8.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_0aac8.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-KcRgnr -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-KcRgnr -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_fdca7.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_fdca7.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_fdca7.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.6.4.2) default target arm64-apple-darwin25.3.0]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
@@ -1701,13 +1744,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_0aac8]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0aac8.dir/link.txt --verbose=1]
+        ignore line: [Linking C executable cmTC_fdca7]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdca7.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.4.2)]
         ignore line: [Target: arm64-apple-darwin25.3.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_0aac8 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_0aac8.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_fdca7 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_fdca7.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1724,12 +1767,12 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_0aac8] ==> ignore
+          arg [cmTC_fdca7] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_0aac8.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_fdca7.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
         linker tool for 'C': /Library/Developer/CommandLineTools/usr/bin/ld
@@ -1778,8 +1821,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-2KO39k"
-      binary: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-2KO39k"
+      source: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-wz1bny"
+      binary: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-wz1bny"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1792,15 +1835,15 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-2KO39k'
+        Change Dir: '/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-wz1bny'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1c8e4/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1c8e4.dir/build.make CMakeFiles/cmTC_1c8e4.dir/build
-        Building C object CMakeFiles/cmTC_1c8e4.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -arch arm64 -MD -MT CMakeFiles/cmTC_1c8e4.dir/src.c.o -MF CMakeFiles/cmTC_1c8e4.dir/src.c.o.d -o CMakeFiles/cmTC_1c8e4.dir/src.c.o -c /Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-2KO39k/src.c
-        Linking C executable cmTC_1c8e4
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c8e4.dir/link.txt --verbose=1
-        /usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1c8e4.dir/src.c.o -o cmTC_1c8e4
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_163e9/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_163e9.dir/build.make CMakeFiles/cmTC_163e9.dir/build
+        Building C object CMakeFiles/cmTC_163e9.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -arch arm64 -MD -MT CMakeFiles/cmTC_163e9.dir/src.c.o -MF CMakeFiles/cmTC_163e9.dir/src.c.o.d -o CMakeFiles/cmTC_163e9.dir/src.c.o -c /Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-wz1bny/src.c
+        Linking C executable cmTC_163e9
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_163e9.dir/link.txt --verbose=1
+        /usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_163e9.dir/src.c.o -o cmTC_163e9
         
       exitCode: 0
   -
@@ -1853,6 +1896,14 @@ events:
         mode: "config"
         reason: "no_exist"
       -
+        path: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
         path: "/opt/homebrew/fmtConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -1870,6 +1921,7 @@ events:
       version: "12.1.0"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -1960,6 +2012,14 @@ events:
         mode: "config"
         reason: "no_exist"
       -
+        path: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/spdlogConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/spdlog-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
         path: "/opt/homebrew/spdlogConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -1973,6 +2033,7 @@ events:
       version: "1.17.0"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -2044,6 +2105,7 @@ events:
       - "pkg-config"
       - "pkgconf"
     candidate_directories:
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
@@ -2097,9 +2159,13 @@ events:
       - "/opt/local/"
       - "/Users/nivkarasenty/Applications/"
       - "/Applications/"
+    searched_directories:
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/pkg-config"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/pkgconf"
     found: "/opt/homebrew/bin/pkg-config"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -2167,6 +2233,7 @@ events:
     found: "/opt/homebrew/Cellar/gmp/6.3.0/lib/libgmp.dylib"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -2236,6 +2303,7 @@ events:
       - "gmpxx.h"
     candidate_directories:
       - "/opt/homebrew/Cellar/gmp/6.3.0/include/"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
@@ -2291,6 +2359,7 @@ events:
     found: "/opt/homebrew/Cellar/gmp/6.3.0/include/"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -2360,6 +2429,7 @@ events:
       - "gmpxx"
     candidate_directories:
       - "/opt/homebrew/Cellar/gmp/6.3.0/lib/"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
@@ -2394,6 +2464,7 @@ events:
     found: "/opt/homebrew/Cellar/gmp/6.3.0/lib/libgmpxx.dylib"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -2463,6 +2534,7 @@ events:
       - "gmp"
     candidate_directories:
       - "/opt/homebrew/Cellar/gmp/6.3.0/lib/"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
@@ -2497,6 +2569,7 @@ events:
     found: "/opt/homebrew/Cellar/gmp/6.3.0/lib/libgmp.dylib"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -2613,6 +2686,7 @@ events:
       version: "1.90.0"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -2727,6 +2801,7 @@ events:
       version: "1.90.0"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -2842,6 +2917,7 @@ events:
       version: "1.90.0"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -2956,6 +3032,7 @@ events:
       version: "1.90.0"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -3070,6 +3147,7 @@ events:
       version: "1.90.0"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -3185,6 +3263,7 @@ events:
       version: "1.90.0"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -3300,6 +3379,7 @@ events:
       version: "1.90.0"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -3415,6 +3495,7 @@ events:
       version: "1.90.0"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -3529,6 +3610,7 @@ events:
       version: "1.90.0"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -3636,6 +3718,14 @@ events:
         reason: "no_exist"
       -
         path: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/pkgRedirects/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/boost-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -4004,6 +4094,7 @@ events:
       version: "1.90.0"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -4078,6 +4169,7 @@ events:
     found: "/opt/homebrew/include/"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -4170,6 +4262,14 @@ events:
         mode: "config"
         reason: "no_exist"
       -
+        path: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/VolkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/volk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
         path: "/opt/homebrew/VolkConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -4183,6 +4283,7 @@ events:
       version: "3.3.0"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -4255,6 +4356,7 @@ events:
       - "python3.14"
     candidate_directories:
       - "/opt/homebrew/Cellar/gnuradio/3.10.12.0_10/libexec/venv/lib/"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
@@ -4291,6 +4393,11 @@ events:
       - "/opt/homebrew/Cellar/gnuradio/3.10.12.0_10/libexec/venv/lib/"
       - "/opt/homebrew/Cellar/gnuradio/3.10.12.0_10/libexec/venv/lib/"
       - "/opt/homebrew/Cellar/gnuradio/3.10.12.0_10/libexec/venv/lib/"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/bin/"
@@ -4438,6 +4545,7 @@ events:
     found: "/opt/homebrew/Frameworks/Python.framework/Versions/3.14/lib/libpython3.14.dylib"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -4509,6 +4617,11 @@ events:
       - "/opt/homebrew/Frameworks/Python.framework/Versions/3.14/include/python3.14u/"
       - "/opt/homebrew/Frameworks/Python.framework/Versions/3.14/include/python3.14/"
       - "/opt/homebrew/Frameworks/Python.framework/Versions/3.14/include/"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/python3.14mu/"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/python3.14m/"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/python3.14u/"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/python3.14/"
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
       - "/opt/homebrew/bin/python3.14mu/"
       - "/opt/homebrew/bin/python3.14m/"
       - "/opt/homebrew/bin/python3.14u/"
@@ -4766,6 +4879,7 @@ events:
     found: "/opt/homebrew/Frameworks/Python.framework/Versions/3.14/include/python3.14/"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -4857,6 +4971,14 @@ events:
         mode: "config"
         reason: "no_exist"
       -
+        path: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/GnuradioConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/gnuradio-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
         path: "/opt/homebrew/GnuradioConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -4870,6 +4992,7 @@ events:
       version: "3.10.12.0"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -4928,8 +5051,8 @@ events:
     checks:
       - "Performing Test HAVE_VISIBILITY_HIDDEN"
     directories:
-      source: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-qkquFb"
-      binary: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-qkquFb"
+      source: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-mpclf1"
+      binary: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-mpclf1"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g -O2"
@@ -4942,15 +5065,15 @@ events:
       variable: "HAVE_VISIBILITY_HIDDEN"
       cached: true
       stdout: |
-        Change Dir: '/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-qkquFb'
+        Change Dir: '/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-mpclf1'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0aa39/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0aa39.dir/build.make CMakeFiles/cmTC_0aa39.dir/build
-        Building CXX object CMakeFiles/cmTC_0aa39.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_VISIBILITY_HIDDEN  -std=c++17 -arch arm64   -fvisibility=hidden -MD -MT CMakeFiles/cmTC_0aa39.dir/src.cxx.o -MF CMakeFiles/cmTC_0aa39.dir/src.cxx.o.d -o CMakeFiles/cmTC_0aa39.dir/src.cxx.o -c /Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-qkquFb/src.cxx
-        Linking CXX executable cmTC_0aa39
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0aa39.dir/link.txt --verbose=1
-        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0aa39.dir/src.cxx.o -o cmTC_0aa39
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0282d/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0282d.dir/build.make CMakeFiles/cmTC_0282d.dir/build
+        Building CXX object CMakeFiles/cmTC_0282d.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_VISIBILITY_HIDDEN  -std=c++17 -arch arm64   -fvisibility=hidden -MD -MT CMakeFiles/cmTC_0282d.dir/src.cxx.o -MF CMakeFiles/cmTC_0282d.dir/src.cxx.o.d -o CMakeFiles/cmTC_0282d.dir/src.cxx.o -c /Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-mpclf1/src.cxx
+        Linking CXX executable cmTC_0282d
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0282d.dir/link.txt --verbose=1
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0282d.dir/src.cxx.o -o cmTC_0282d
         
       exitCode: 0
   -
@@ -4965,8 +5088,8 @@ events:
     checks:
       - "Performing Test HAVE_WARN_SIGN_COMPARE"
     directories:
-      source: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-L3M3DW"
-      binary: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-L3M3DW"
+      source: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-nZExH5"
+      binary: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-nZExH5"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -fvisibility=hidden"
       CMAKE_CXX_FLAGS_DEBUG: "-g -O2"
@@ -4979,15 +5102,15 @@ events:
       variable: "HAVE_WARN_SIGN_COMPARE"
       cached: true
       stdout: |
-        Change Dir: '/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-L3M3DW'
+        Change Dir: '/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-nZExH5'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_26ff7/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_26ff7.dir/build.make CMakeFiles/cmTC_26ff7.dir/build
-        Building CXX object CMakeFiles/cmTC_26ff7.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_WARN_SIGN_COMPARE  -fvisibility=hidden  -std=c++17 -arch arm64   -Wsign-compare -MD -MT CMakeFiles/cmTC_26ff7.dir/src.cxx.o -MF CMakeFiles/cmTC_26ff7.dir/src.cxx.o.d -o CMakeFiles/cmTC_26ff7.dir/src.cxx.o -c /Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-L3M3DW/src.cxx
-        Linking CXX executable cmTC_26ff7
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26ff7.dir/link.txt --verbose=1
-        /usr/bin/c++  -fvisibility=hidden  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_26ff7.dir/src.cxx.o -o cmTC_26ff7
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2a56c/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2a56c.dir/build.make CMakeFiles/cmTC_2a56c.dir/build
+        Building CXX object CMakeFiles/cmTC_2a56c.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_WARN_SIGN_COMPARE  -fvisibility=hidden  -std=c++17 -arch arm64   -Wsign-compare -MD -MT CMakeFiles/cmTC_2a56c.dir/src.cxx.o -MF CMakeFiles/cmTC_2a56c.dir/src.cxx.o.d -o CMakeFiles/cmTC_2a56c.dir/src.cxx.o -c /Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-nZExH5/src.cxx
+        Linking CXX executable cmTC_2a56c
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a56c.dir/link.txt --verbose=1
+        /usr/bin/c++  -fvisibility=hidden  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2a56c.dir/src.cxx.o -o cmTC_2a56c
         
       exitCode: 0
   -
@@ -5002,8 +5125,8 @@ events:
     checks:
       - "Performing Test HAVE_WARN_ALL"
     directories:
-      source: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-uBAjk0"
-      binary: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-uBAjk0"
+      source: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-PiP27m"
+      binary: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-PiP27m"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -fvisibility=hidden -Wsign-compare"
       CMAKE_CXX_FLAGS_DEBUG: "-g -O2"
@@ -5016,15 +5139,15 @@ events:
       variable: "HAVE_WARN_ALL"
       cached: true
       stdout: |
-        Change Dir: '/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-uBAjk0'
+        Change Dir: '/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-PiP27m'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6ffad/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6ffad.dir/build.make CMakeFiles/cmTC_6ffad.dir/build
-        Building CXX object CMakeFiles/cmTC_6ffad.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_WARN_ALL  -fvisibility=hidden -Wsign-compare  -std=c++17 -arch arm64   -Wall -MD -MT CMakeFiles/cmTC_6ffad.dir/src.cxx.o -MF CMakeFiles/cmTC_6ffad.dir/src.cxx.o.d -o CMakeFiles/cmTC_6ffad.dir/src.cxx.o -c /Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-uBAjk0/src.cxx
-        Linking CXX executable cmTC_6ffad
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ffad.dir/link.txt --verbose=1
-        /usr/bin/c++  -fvisibility=hidden -Wsign-compare  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6ffad.dir/src.cxx.o -o cmTC_6ffad
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_28fa1/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_28fa1.dir/build.make CMakeFiles/cmTC_28fa1.dir/build
+        Building CXX object CMakeFiles/cmTC_28fa1.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_WARN_ALL  -fvisibility=hidden -Wsign-compare  -std=c++17 -arch arm64   -Wall -MD -MT CMakeFiles/cmTC_28fa1.dir/src.cxx.o -MF CMakeFiles/cmTC_28fa1.dir/src.cxx.o.d -o CMakeFiles/cmTC_28fa1.dir/src.cxx.o -c /Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-PiP27m/src.cxx
+        Linking CXX executable cmTC_28fa1
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28fa1.dir/link.txt --verbose=1
+        /usr/bin/c++  -fvisibility=hidden -Wsign-compare  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_28fa1.dir/src.cxx.o -o cmTC_28fa1
         
       exitCode: 0
   -
@@ -5039,8 +5162,8 @@ events:
     checks:
       - "Performing Test HAVE_WARN_NO_UNINITIALIZED"
     directories:
-      source: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-2Z8QGp"
-      binary: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-2Z8QGp"
+      source: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-K5mXnR"
+      binary: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-K5mXnR"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -fvisibility=hidden -Wsign-compare -Wall"
       CMAKE_CXX_FLAGS_DEBUG: "-g -O2"
@@ -5053,15 +5176,15 @@ events:
       variable: "HAVE_WARN_NO_UNINITIALIZED"
       cached: true
       stdout: |
-        Change Dir: '/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-2Z8QGp'
+        Change Dir: '/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-K5mXnR'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_50599/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_50599.dir/build.make CMakeFiles/cmTC_50599.dir/build
-        Building CXX object CMakeFiles/cmTC_50599.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_WARN_NO_UNINITIALIZED  -fvisibility=hidden -Wsign-compare -Wall  -std=c++17 -arch arm64   -Wno-uninitialized -MD -MT CMakeFiles/cmTC_50599.dir/src.cxx.o -MF CMakeFiles/cmTC_50599.dir/src.cxx.o.d -o CMakeFiles/cmTC_50599.dir/src.cxx.o -c /Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-2Z8QGp/src.cxx
-        Linking CXX executable cmTC_50599
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50599.dir/link.txt --verbose=1
-        /usr/bin/c++  -fvisibility=hidden -Wsign-compare -Wall  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_50599.dir/src.cxx.o -o cmTC_50599
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d71ce/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d71ce.dir/build.make CMakeFiles/cmTC_d71ce.dir/build
+        Building CXX object CMakeFiles/cmTC_d71ce.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_WARN_NO_UNINITIALIZED  -fvisibility=hidden -Wsign-compare -Wall  -std=c++17 -arch arm64   -Wno-uninitialized -MD -MT CMakeFiles/cmTC_d71ce.dir/src.cxx.o -MF CMakeFiles/cmTC_d71ce.dir/src.cxx.o.d -o CMakeFiles/cmTC_d71ce.dir/src.cxx.o -c /Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-K5mXnR/src.cxx
+        Linking CXX executable cmTC_d71ce
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d71ce.dir/link.txt --verbose=1
+        /usr/bin/c++  -fvisibility=hidden -Wsign-compare -Wall  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d71ce.dir/src.cxx.o -o cmTC_d71ce
         
       exitCode: 0
   -
@@ -5076,8 +5199,8 @@ events:
     checks:
       - "Performing Test HAVE_WARN_IGNORED_QUALIFIERS"
     directories:
-      source: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-XvQxrZ"
-      binary: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-XvQxrZ"
+      source: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-1tAwoL"
+      binary: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-1tAwoL"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized"
       CMAKE_CXX_FLAGS_DEBUG: "-g -O2"
@@ -5090,15 +5213,15 @@ events:
       variable: "HAVE_WARN_IGNORED_QUALIFIERS"
       cached: true
       stdout: |
-        Change Dir: '/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-XvQxrZ'
+        Change Dir: '/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-1tAwoL'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_67454/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_67454.dir/build.make CMakeFiles/cmTC_67454.dir/build
-        Building CXX object CMakeFiles/cmTC_67454.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_WARN_IGNORED_QUALIFIERS  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized  -std=c++17 -arch arm64   -Wignored-qualifiers -MD -MT CMakeFiles/cmTC_67454.dir/src.cxx.o -MF CMakeFiles/cmTC_67454.dir/src.cxx.o.d -o CMakeFiles/cmTC_67454.dir/src.cxx.o -c /Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-XvQxrZ/src.cxx
-        Linking CXX executable cmTC_67454
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67454.dir/link.txt --verbose=1
-        /usr/bin/c++  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_67454.dir/src.cxx.o -o cmTC_67454
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_66218/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_66218.dir/build.make CMakeFiles/cmTC_66218.dir/build
+        Building CXX object CMakeFiles/cmTC_66218.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_WARN_IGNORED_QUALIFIERS  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized  -std=c++17 -arch arm64   -Wignored-qualifiers -MD -MT CMakeFiles/cmTC_66218.dir/src.cxx.o -MF CMakeFiles/cmTC_66218.dir/src.cxx.o.d -o CMakeFiles/cmTC_66218.dir/src.cxx.o -c /Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-1tAwoL/src.cxx
+        Linking CXX executable cmTC_66218
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66218.dir/link.txt --verbose=1
+        /usr/bin/c++  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_66218.dir/src.cxx.o -o cmTC_66218
         
       exitCode: 0
   -
@@ -5113,8 +5236,8 @@ events:
     checks:
       - "Performing Test HAVE_WARN_CAST_QUAL"
     directories:
-      source: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-3Nj9Sm"
-      binary: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-3Nj9Sm"
+      source: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-mbrPhF"
+      binary: "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-mbrPhF"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -Wignored-qualifiers"
       CMAKE_CXX_FLAGS_DEBUG: "-g -O2"
@@ -5127,15 +5250,15 @@ events:
       variable: "HAVE_WARN_CAST_QUAL"
       cached: true
       stdout: |
-        Change Dir: '/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-3Nj9Sm'
+        Change Dir: '/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-mbrPhF'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_757e8/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_757e8.dir/build.make CMakeFiles/cmTC_757e8.dir/build
-        Building CXX object CMakeFiles/cmTC_757e8.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_WARN_CAST_QUAL  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -Wignored-qualifiers  -std=c++17 -arch arm64   -Wcast-qual -MD -MT CMakeFiles/cmTC_757e8.dir/src.cxx.o -MF CMakeFiles/cmTC_757e8.dir/src.cxx.o.d -o CMakeFiles/cmTC_757e8.dir/src.cxx.o -c /Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-3Nj9Sm/src.cxx
-        Linking CXX executable cmTC_757e8
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_757e8.dir/link.txt --verbose=1
-        /usr/bin/c++  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -Wignored-qualifiers  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_757e8.dir/src.cxx.o -o cmTC_757e8
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4a197/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4a197.dir/build.make CMakeFiles/cmTC_4a197.dir/build
+        Building CXX object CMakeFiles/cmTC_4a197.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_WARN_CAST_QUAL  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -Wignored-qualifiers  -std=c++17 -arch arm64   -Wcast-qual -MD -MT CMakeFiles/cmTC_4a197.dir/src.cxx.o -MF CMakeFiles/cmTC_4a197.dir/src.cxx.o.d -o CMakeFiles/cmTC_4a197.dir/src.cxx.o -c /Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/gr-modulator/build/CMakeFiles/CMakeScratch/TryCompile-mbrPhF/src.cxx
+        Linking CXX executable cmTC_4a197
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a197.dir/link.txt --verbose=1
+        /usr/bin/c++  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -Wignored-qualifiers  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4a197.dir/src.cxx.o -o cmTC_4a197
         
       exitCode: 0
   -
@@ -5159,6 +5282,7 @@ events:
       - "git"
       - "eg"
     candidate_directories:
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
@@ -5212,9 +5336,12 @@ events:
       - "/opt/local/"
       - "/Users/nivkarasenty/Applications/"
       - "/Applications/"
+    searched_directories:
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/git"
     found: "/opt/homebrew/bin/git"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -5271,6 +5398,7 @@ events:
     names:
       - "doxygen"
     candidate_directories:
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
@@ -5329,6 +5457,7 @@ events:
       - "/Applications/Utilities/Doxygen.app/Contents/Resources/"
       - "/Applications/Utilities/Doxygen.app/Contents/MacOS/"
     searched_directories:
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/doxygen"
       - "/opt/homebrew/bin/doxygen"
       - "/opt/homebrew/sbin/doxygen"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/doxygen"
@@ -5389,6 +5518,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -5445,6 +5575,7 @@ events:
     names:
       - "dot"
     candidate_directories:
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
@@ -5507,6 +5638,7 @@ events:
       - "/Applications/Utilities/Doxygen.app/Contents/Resources/"
       - "/Applications/Utilities/Doxygen.app/Contents/MacOS/"
     searched_directories:
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/dot"
       - "/opt/homebrew/bin/dot"
       - "/opt/homebrew/sbin/dot"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/dot"
@@ -5571,6 +5703,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -5626,6 +5759,7 @@ events:
     names:
       - "sh"
     candidate_directories:
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
@@ -5680,6 +5814,7 @@ events:
       - "/Users/nivkarasenty/Applications/"
       - "/Applications/"
     searched_directories:
+      - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin/sh"
       - "/opt/homebrew/bin/sh"
       - "/opt/homebrew/sbin/sh"
       - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/sh"
@@ -5691,6 +5826,7 @@ events:
     found: "/bin/sh"
     search_context:
       ENV{PATH}:
+        - "/Users/nivkarasenty/Desktop/niv/Delta/SDR_week/final_exercise/venv/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Users/nivkarasenty/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
