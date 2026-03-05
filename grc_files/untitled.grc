@@ -84,7 +84,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [456, 164.0]
+    coordinate: [472, 204.0]
     rotation: 0
     state: enabled
 - name: blocks_throttle2_0
@@ -105,7 +105,24 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [296, 168.0]
+    coordinate: [312, 168.0]
+    rotation: 0
+    state: enabled
+- name: modulator_demodulate_0
+  id: modulator_demodulate
+  parameters:
+    affinity: ''
+    alias: ''
+    comment: ''
+    samp_rate: samp_rate
+    t: t
+    threshold: '0'
+    timeout: '0'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [472, 120.0]
     rotation: 0
     state: enabled
 - name: modulator_modulator_0
@@ -129,6 +146,7 @@ blocks:
 
 connections:
 - [blocks_throttle2_0, '0', blocks_file_sink_0, '0']
+- [blocks_throttle2_0, '0', modulator_demodulate_0, '0']
 - [modulator_modulator_0, '0', blocks_throttle2_0, '0']
 
 metadata:

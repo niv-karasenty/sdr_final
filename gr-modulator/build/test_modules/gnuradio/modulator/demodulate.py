@@ -12,7 +12,7 @@ from gnuradio import gr
 
 class demodulate(gr.sync_block):
     """
-    docstring for block demodulate
+    demodulating a block using our modulation scheme
     """
     def __init__(self, t, samp_rate, threshold, timeout):
         gr.sync_block.__init__(self,
@@ -51,10 +51,9 @@ class demodulate(gr.sync_block):
 
     def work(self, input_items, output_items):
         in0 = input_items[0]
-        self.sample_queue = in0
-        for sample in self.sample_queue:
-            self.sample_queue.pop(0)
-            if sample == self.preamble:
+        for i in range(len(in0)):
+            if in0[i:i+len(self.preamble)] == self.preamble:
+                self.sample_queue = in0[i+len(self.preamble)+1:]
                 break
 
         self.demodulate()

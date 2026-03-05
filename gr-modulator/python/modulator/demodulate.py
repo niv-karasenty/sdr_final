@@ -12,7 +12,7 @@ from gnuradio import gr
 
 class demodulate(gr.sync_block):
     """
-    docstring for block demodulate
+    demodulating a block using our modulation scheme
     """
     def __init__(self, t, samp_rate, threshold, timeout):
         gr.sync_block.__init__(self,
@@ -27,6 +27,8 @@ class demodulate(gr.sync_block):
         self.preamble = -1.0
         self.sample_queue = []
         self.string = ''
+        self.preamble_to_check = []
+        self.pre_amble_valid_flag = False
 
     def demodulate(self):
         symbol_0 = np.repeat([1,-1,-1], self.sps/3)
@@ -48,16 +50,30 @@ class demodulate(gr.sync_block):
             print(chr(char_bits))
             self.string = self.string + chr(char_bits)
             
+    # Checking if check_pre_amble and pre amble are the same, if so we can start demodulating
+    # Without noise we just need to check wether the pre amble is the same as the one we check.
+    # For later versions must be adjusted
+    def check_preamble(self):
+        if self.check_preamble == self.preamble:
+            self.pre_amble_valid_flag = True
+        else:
+            self.pre_amble_valid_flag = False
+
 
     def work(self, input_items, output_items):
         in0 = input_items[0]
-        self.sample_queue = in0
-        for sample in self.sample_queue:
-            self.sample_queue.pop(0)
-            if sample == self.preamble:
-                break
-
-        self.demodulate()
+        if self.pre_amble_left > 0:
+            self.preamble_to_check = np.append(self.preamble_to_check, in0[:self.pre_amble_left])
+        else:
+            for i in range(len(in0)):
+                if len(in0[i:]) < len(self.preamble):
+                    self.preamble_to_check = in0[i:]
+                    self.pre_amble_left = len(self.preamble) - i
+                    check_preamble()
+                    break
+                else:
+                    self.preamble_to_check = in0[i:i+len(self.preamble)]
         
-        # <+signal processing here+>
+        if self.pre_amble_valid_flag: # Checking if we have found preamble
+            demodulate()
         return len(input_items[0])
