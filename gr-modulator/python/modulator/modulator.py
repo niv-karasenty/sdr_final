@@ -50,13 +50,9 @@ class modulator(gr.sync_block):
     def work(self, input_items, output_items):
         out = output_items[0]
         out[:] = 0.0 # Initialize output with zeros
-        print('another packet')
         for i in range(len(out)):
             if len(self.sample_queue) > self.item_number:
                 out[i] = self.sample_queue[self.item_number] # Output the next sample from the queue
                 self.item_number += 1
 
-        print(out)
-
-        print(len(out))
         return len(output_items[0])

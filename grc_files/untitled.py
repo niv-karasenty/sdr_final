@@ -61,9 +61,9 @@ class untitled(gr.top_block, Qt.QWidget):
         ##################################################
         # Variables
         ##################################################
-        self.t = t = 1
+        self.t = t = 1e-3
         self.samp_rate = samp_rate = 10000
-        self.input_string = input_string = 'AAAAAAAA'
+        self.input_string = input_string = 'hello evereyone this is our try to get a message'
 
         ##################################################
         # Blocks
@@ -72,14 +72,11 @@ class untitled(gr.top_block, Qt.QWidget):
         self.modulator_modulator_0 = modulator.modulator(t, samp_rate, input_string)
         self.modulator_demodulate_0 = modulator.demodulate(t, samp_rate, 0, 0)
         self.blocks_throttle2_0 = blocks.throttle( gr.sizeof_float*1, samp_rate, True, 0 if "auto" == "auto" else max( int(float(0.1) * samp_rate) if "auto" == "time" else int(0.1), 1) )
-        self.blocks_file_sink_0 = blocks.file_sink(gr.sizeof_float*1, 'output_file', False)
-        self.blocks_file_sink_0.set_unbuffered(False)
 
 
         ##################################################
         # Connections
         ##################################################
-        self.connect((self.blocks_throttle2_0, 0), (self.blocks_file_sink_0, 0))
         self.connect((self.blocks_throttle2_0, 0), (self.modulator_demodulate_0, 0))
         self.connect((self.modulator_modulator_0, 0), (self.blocks_throttle2_0, 0))
 

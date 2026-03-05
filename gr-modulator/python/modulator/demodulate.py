@@ -24,56 +24,84 @@ class demodulate(gr.sync_block):
         self.threshold = threshold
         self.timeout = timeout
         self.sps = int(self.samp_rate * self.t * 3) # samples per symbol
-        self.preamble = -1.0
-        self.sample_queue = []
+        self.preamble = np.repeat(-1.0, self.sps/3)
         self.string = ''
-        self.preamble_to_check = []
-        self.pre_amble_valid_flag = False
+        self.demodulating_flag = False
+        self.preamble_to_check = np.array([])
+        self.byte_to_demod = np.array([]) # This array will hold the samples for one byte
 
-    def demodulate(self):
+    # This function demodulates one byte at a time
+    # Must recieve 8 symbols of samples
+    def demodulate_byte(self, ):
         symbol_0 = np.repeat([1,-1,-1], self.sps/3)
         symbol_1 = np.repeat([1,1,-1], self.sps/3)
 
         bit_array = []
 
-        for i in range(0,len(self.sample_queue)-1,self.sps):
-            symbol = self.sample_queue[i:i+self.sps-1]
-            if symbol * symbol_0 > symbol * symbol_1:
+        for i in range(0,8):
+            symbol = self.byte_to_demod[i*self.sps:(i+1)*self.sps]
+            # if np.correlate(symbol, symbol_0) > np.correlate(symbol, symbol_1):
+            if np.array_equal(symbol, symbol_0):
                 bit_array.append(0)
-            else:
+            elif np.array_equal(symbol, symbol_1):
                 bit_array.append(1)
-
-        for i in range(0,len(bit_array)-1,8):
-            char_bits = bit_array[i:i+7]
-            char_bits = "".join(map(str,char_bits))
-            char_bits = int(char_bits,2)
-            print(chr(char_bits))
-            self.string = self.string + chr(char_bits)
+            else: # If no bit was detected, we assume the packet is corrupted and stop demodulating
+                self.demodulating_flag = False
+                self.preamble_to_check = np.array([])
+                self.byte_to_demod = np.array([])
+                return
+            
+        # Bits to char
+        char_bits = bit_array
+        char_bits = "".join(map(str,char_bits))
+        char_bits = int(char_bits,2)
+        self.string = self.string + chr(char_bits)
             
     # Checking if check_pre_amble and pre amble are the same, if so we can start demodulating
     # Without noise we just need to check wether the pre amble is the same as the one we check.
     # For later versions must be adjusted
     def check_preamble(self):
-        if self.check_preamble == self.preamble:
-            self.pre_amble_valid_flag = True
+        if np.array_equal(self.preamble_to_check, self.preamble):
+            return True
         else:
-            self.pre_amble_valid_flag = False
+            return False
 
 
+    # Standard work function, this will be activated every time we have a packet comming in
     def work(self, input_items, output_items):
         in0 = input_items[0]
-        if self.pre_amble_left > 0:
-            self.preamble_to_check = np.append(self.preamble_to_check, in0[:self.pre_amble_left])
-        else:
-            for i in range(len(in0)):
-                if len(in0[i:]) < len(self.preamble):
-                    self.preamble_to_check = in0[i:]
-                    self.pre_amble_left = len(self.preamble) - i
-                    check_preamble()
+        sample_counter = 0
+
+        # Countinue checking for preamble until we find it or run out of samples
+        while (not self.demodulating_flag) and sample_counter < len(in0):
+            if len(self.preamble_to_check) < len(self.preamble): # We need to fill the preamble_to_check array until it's the same length as the preamble
+                if len(in0) > len(self.preamble) - len(self.preamble_to_check): # If we have more samples in packet than we need to fill preamble
+                    sample_counter = len(self.preamble) - len(self.preamble_to_check)
+                    self.preamble_to_check = np.append(self.preamble_to_check, in0[:(len(self.preamble) - len(self.preamble_to_check))])
+                    
+                else: # If we don't have enough samples in packet to fill preamble
+                    self.preamble_to_check = np.append(self.preamble_to_check, in0)
+                    sample_counter = len(in0)
+            # Check for preamble only once we have enough samples to compare
+            if len(self.preamble_to_check) == len(self.preamble):
+                if self.check_preamble():
+                    self.demodulating_flag = True
                     break
                 else:
-                    self.preamble_to_check = in0[i:i+len(self.preamble)]
-        
-        if self.pre_amble_valid_flag: # Checking if we have found preamble
-            demodulate()
+                    # If we haven't found the preamble yet, we need to keep checking the incoming samples
+                    self.preamble_to_check = np.roll(self.preamble_to_check, -1)
+                    self.preamble_to_check[-1] = in0[sample_counter]
+                    sample_counter += 1
+
+        if self.demodulating_flag:
+            while sample_counter < len(in0):
+                self.byte_to_demod = np.append(self.byte_to_demod, in0[sample_counter])
+                if (len(self.byte_to_demod) == self.sps * 8): # Once we have enough samples for one byte, we can demodulate it
+                    self.demodulate_byte()
+                    self.byte_to_demod = np.array([]) # Clear the byte_to_demod array for the next byte
+                sample_counter += 1
+        else:
+            if len(self.string) > 0:
+                print('Demodulated string: ' + self.string)
+                self.string = '' # Clear the string for the next packet
         return len(input_items[0])
