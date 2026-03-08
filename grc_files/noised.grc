@@ -1,18 +1,17 @@
 options:
   parameters:
-    author: nivkarasenty and rephaelriahi
+    author: nivkarasenty
     catch_exceptions: 'True'
     category: '[GRC Hier Blocks]'
     cmake_opt: ''
     comment: ''
     copyright: ''
-    description: Trying to use fm modulation on our modulation to move it through
-      sound
+    description: ''
     gen_cmake: 'On'
     gen_linking: dynamic
     generate_options: qt_gui
     hier_block_src_path: '.:'
-    id: fm_modulation
+    id: noised
     max_nouts: '0'
     output_language: python
     placement: (0,0)
@@ -23,17 +22,41 @@ options:
     run_options: prompt
     sizing_mode: fixed
     thread_safe_setters: ''
-    title: FM modulated signal
+    title: Not titled yet
     window_size: (1000,1000)
   states:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [16, 8.0]
+    coordinate: [8, 8]
     rotation: 0
     state: enabled
 
 blocks:
+- name: SNR_dB
+  id: variable
+  parameters:
+    comment: ''
+    value: '1'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [272, 160.0]
+    rotation: 0
+    state: enabled
+- name: SNR_lin
+  id: variable
+  parameters:
+    comment: ''
+    value: np.pow(10,(SNR_dB/10))
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [184, 64.0]
+    rotation: 0
+    state: enabled
 - name: f_delta
   id: variable
   parameters:
@@ -43,19 +66,19 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [480, 56.0]
+    coordinate: [312, 8.0]
     rotation: 0
     state: enabled
 - name: input_str
   id: variable
   parameters:
     comment: ''
-    value: '''AA'''
+    value: '''AAAA'''
   states:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [136, 64.0]
+    coordinate: [120, 64.0]
     rotation: 0
     state: enabled
 - name: samp_rate
@@ -67,52 +90,43 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [136, 8.0]
+    coordinate: [120, 8.0]
     rotation: 0
     state: enabled
 - name: t
   id: variable
   parameters:
     comment: ''
-    value: '0.05'
+    value: '0.01'
   states:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [200, 8.0]
+    coordinate: [184, 8.0]
     rotation: 0
     state: enabled
 - name: threshold
   id: variable
   parameters:
     comment: ''
-    value: 1e-5
+    value: '0.15'
   states:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [264, 8.0]
+    coordinate: [248, 8.0]
     rotation: 0
     state: enabled
 - name: timeout
-  id: variable_qtgui_range
+  id: variable
   parameters:
     comment: ''
-    gui_hint: ''
-    label: after how many unidentified bits shell I stop searching?
-    min_len: '200'
-    orient: QtCore.Qt.Horizontal
-    rangeType: float
-    start: '1'
-    step: '1'
-    stop: '100'
-    value: '10'
-    widget: counter_slider
+    value: '8'
   states:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [368, 12.0]
+    coordinate: [256, 64.0]
     rotation: 0
     state: enabled
 - name: analog_fm_demod_cf_0
@@ -134,7 +148,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [672, 120.0]
+    coordinate: [664, 192.0]
     rotation: 0
     state: enabled
 - name: analog_frequency_modulator_fc_0
@@ -150,7 +164,44 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [360, 148.0]
+    coordinate: [344, 268.0]
+    rotation: 0
+    state: enabled
+- name: analog_noise_source_x_0
+  id: analog_noise_source_x
+  parameters:
+    affinity: ''
+    alias: ''
+    amp: 1/(SNR_lin*samp_rate)
+    comment: ''
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    noise_type: analog.GR_GAUSSIAN
+    seed: '0'
+    type: complex
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [344, 164.0]
+    rotation: 0
+    state: enabled
+- name: blocks_add_xx_0
+  id: blocks_add_xx
+  parameters:
+    affinity: ''
+    alias: ''
+    comment: ''
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    num_inputs: '2'
+    type: complex
+    vlen: '1'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [528, 204.0]
     rotation: 0
     state: enabled
 - name: blocks_throttle2_0
@@ -171,7 +222,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [216, 144.0]
+    coordinate: [208, 264.0]
     rotation: 0
     state: enabled
 - name: import_0
@@ -184,7 +235,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [480, 16.0]
+    coordinate: [8, 80.0]
     rotation: 0
     state: enabled
 - name: modulator_demodulate_0
@@ -193,7 +244,7 @@ blocks:
     affinity: ''
     alias: ''
     comment: ''
-    samp_rate: samp_rate
+    samp_rate: int(samp_rate)
     t: t
     threshold: threshold
     timeout: timeout
@@ -201,7 +252,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [872, 136.0]
+    coordinate: [864, 208.0]
     rotation: 0
     state: enabled
 - name: modulator_modulator_0
@@ -213,13 +264,13 @@ blocks:
     input_str: input_str
     maxoutbuf: '0'
     minoutbuf: '0'
-    samp_rate: samp_rate
+    samp_rate: int(samp_rate)
     t: t
   states:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [32, 140.0]
+    coordinate: [24, 260.0]
     rotation: 0
     state: enabled
 - name: qtgui_time_sink_x_0
@@ -316,9 +367,9 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [544, 280.0]
+    coordinate: [536, 400.0]
     rotation: 0
-    state: enabled
+    state: disabled
 - name: qtgui_time_sink_x_1
   id: qtgui_time_sink_x
   parameters:
@@ -413,9 +464,9 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [368, 280.0]
+    coordinate: [360, 400.0]
     rotation: 0
-    state: enabled
+    state: disabled
 - name: qtgui_time_sink_x_2
   id: qtgui_time_sink_x
   parameters:
@@ -510,15 +561,17 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [832, 280.0]
+    coordinate: [824, 400.0]
     rotation: 0
-    state: enabled
+    state: disabled
 
 connections:
 - [analog_fm_demod_cf_0, '0', modulator_demodulate_0, '0']
 - [analog_fm_demod_cf_0, '0', qtgui_time_sink_x_2, '0']
-- [analog_frequency_modulator_fc_0, '0', analog_fm_demod_cf_0, '0']
+- [analog_frequency_modulator_fc_0, '0', blocks_add_xx_0, '1']
 - [analog_frequency_modulator_fc_0, '0', qtgui_time_sink_x_0, '0']
+- [analog_noise_source_x_0, '0', blocks_add_xx_0, '0']
+- [blocks_add_xx_0, '0', analog_fm_demod_cf_0, '0']
 - [blocks_throttle2_0, '0', analog_frequency_modulator_fc_0, '0']
 - [blocks_throttle2_0, '0', qtgui_time_sink_x_1, '0']
 - [modulator_modulator_0, '0', blocks_throttle2_0, '0']

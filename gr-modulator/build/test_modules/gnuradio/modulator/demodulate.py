@@ -42,20 +42,21 @@ class demodulate(gr.sync_block):
         for i in range(0,8):
             symbol = self.byte_to_demod[i*self.sps:(i+1)*self.sps]
             if np.correlate(symbol, symbol_0)/(self.sps) > self.threshold or np.correlate(symbol, symbol_1)/(self.sps) > self.threshold:
-                print('Correlation value for symbol ' + str(i) + ': ' + str(np.correlate(symbol, symbol_0)/(self.sps)) + ' for bit 0 and ' + str(np.correlate(symbol, symbol_1)/(self.sps)) + ' for bit 1')
+                # print('Correlation value for symbol ' + str(i) + ': ' + str(np.correlate(symbol, symbol_0)/(self.sps)) + ' for bit 0 and ' + str(np.correlate(symbol, symbol_1)/(self.sps)) + ' for bit 1')
                 if np.correlate(symbol, symbol_0)/(self.sps) > np.correlate(symbol, symbol_1)/(self.sps):
                     bit_array.append(0)
-                    print('Added bit 0')
+                    # print('Added bit 0')
                 else:
                     bit_array.append(1)
-                    print('Added bit 1')
+                    # print('Added bit 1')
                 self.time_out_counter = 0 # Reset timeout counter if we found a bit
             else: # If no bit was detected, we assume the packet is corrupted and stop demodulating
-                print('No bit detected')
-                if np.correlate(symbol, symbol_0)/(self.sps/3) > np.correlate(symbol, symbol_1)/(self.sps/3):
-                    bit_array.append(0)
-                else:
-                    bit_array.append(1)
+                # print('No bit detected')
+                # if np.correlate(symbol, symbol_0)/(self.sps) > np.correlate(symbol, symbol_1)/(self.sps):
+                #     bit_array.append(0)
+                # else:
+                #     bit_array.append(1)
+                bit_array.append(0) # We append a 0 to keep the byte length correct, but we will ignore it later when converting to char
 
                 self.time_out_counter += 1
             
@@ -70,7 +71,7 @@ class demodulate(gr.sync_block):
     # For later versions must be adjusted
     def check_preamble(self):
         if np.correlate(self.preamble_to_check, self.preamble)/(self.sps/3) > self.threshold: # If the correlation is above the threshold, we assume we found the preamble
-            print('Correlation value: ' + str(np.correlate(self.preamble_to_check, self.preamble)/(self.sps/3)))
+            # print('Correlation value: ' + str(np.correlate(self.preamble_to_check, self.preamble)/(self.sps/3)))
             return True
         else:
             return False
@@ -108,6 +109,7 @@ class demodulate(gr.sync_block):
             self.demodulating_flag = False
             self.time_out_counter = 0
             self.preamble_to_check = np.array([]) # Clear the preamble_to_check array for the next packet
+            # self.string = self.string[:int(-self.time_out_counter/8)]
 
         if self.demodulating_flag:
             while sample_counter < len(in0):
