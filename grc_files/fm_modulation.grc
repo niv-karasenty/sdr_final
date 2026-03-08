@@ -50,7 +50,7 @@ blocks:
   id: variable
   parameters:
     comment: ''
-    value: '''this is the signal we try to modulate'''
+    value: '''AA'''
   states:
     bus_sink: false
     bus_source: false
@@ -74,7 +74,7 @@ blocks:
   id: variable
   parameters:
     comment: ''
-    value: '0.001'
+    value: '0.05'
   states:
     bus_sink: false
     bus_source: false
@@ -106,7 +106,7 @@ blocks:
     start: '1'
     step: '1'
     stop: '100'
-    value: '50'
+    value: '10'
     widget: counter_slider
   states:
     bus_sink: false
@@ -316,7 +316,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [512, 204.0]
+    coordinate: [520, 208.0]
     rotation: 0
     state: enabled
 - name: qtgui_time_sink_x_1
@@ -413,7 +413,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [360, 244.0]
+    coordinate: [368, 280.0]
     rotation: 0
     state: enabled
 - name: qtgui_time_sink_x_2
@@ -510,7 +510,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [872, 220.0]
+    coordinate: [872, 216.0]
     rotation: 0
     state: enabled
 

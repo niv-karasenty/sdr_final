@@ -99,7 +99,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [360, 176.0]
+    coordinate: [368, 176.0]
     rotation: 0
     state: enabled
 - name: modulator_demodulate_0
@@ -116,7 +116,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [704, 168.0]
+    coordinate: [552, 168.0]
     rotation: 0
     state: enabled
 - name: modulator_modulator_0
@@ -134,7 +134,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [88, 172.0]
+    coordinate: [136, 172.0]
     rotation: 0
     state: enabled
 

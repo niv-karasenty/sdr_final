@@ -41,15 +41,23 @@ class demodulate(gr.sync_block):
 
         for i in range(0,8):
             symbol = self.byte_to_demod[i*self.sps:(i+1)*self.sps]
-            if np.correlate(symbol, symbol_0)/(self.sps/3) > self.threshold or np.correlate(symbol, symbol_1)/(self.sps/3) > self.threshold:
+            if np.correlate(symbol, symbol_0)/(self.sps) > self.threshold or np.correlate(symbol, symbol_1)/(self.sps) > self.threshold:
+                print('Correlation value for symbol ' + str(i) + ': ' + str(np.correlate(symbol, symbol_0)/(self.sps)) + ' for bit 0 and ' + str(np.correlate(symbol, symbol_1)/(self.sps)) + ' for bit 1')
+                if np.correlate(symbol, symbol_0)/(self.sps) > np.correlate(symbol, symbol_1)/(self.sps):
+                    bit_array.append(0)
+                    print('Added bit 0')
+                else:
+                    bit_array.append(1)
+                    print('Added bit 1')
+                self.time_out_counter = 0 # Reset timeout counter if we found a bit
+            else: # If no bit was detected, we assume the packet is corrupted and stop demodulating
+                print('No bit detected')
                 if np.correlate(symbol, symbol_0)/(self.sps/3) > np.correlate(symbol, symbol_1)/(self.sps/3):
                     bit_array.append(0)
                 else:
                     bit_array.append(1)
-                self.time_out_counter = 0 # Reset timeout counter if we found a bit
-            else: # If no bit was detected, we assume the packet is corrupted and stop demodulating
+
                 self.time_out_counter += 1
-                bit_array.append(0) # We can append either 0 or 1 here, we choose 0
             
         # Bits to char
         char_bits = bit_array

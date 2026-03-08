@@ -67,18 +67,18 @@ class fm_modulation(gr.top_block, Qt.QWidget):
         ##################################################
         # Variables
         ##################################################
-        self.timeout = timeout = 50
+        self.timeout = timeout = 10
         self.threshold = threshold = 1e-5
-        self.t = t = 1e-3
+        self.t = t = 0.05
         self.samp_rate = samp_rate = 32000
-        self.input_str = input_str = 'this is the signal we try to modulate'
+        self.input_str = input_str = 'AA'
         self.f_delta = f_delta = 75000
 
         ##################################################
         # Blocks
         ##################################################
 
-        self._timeout_range = qtgui.Range(1, 100, 1, 50, 200)
+        self._timeout_range = qtgui.Range(1, 100, 1, 10, 200)
         self._timeout_win = qtgui.RangeWidget(self._timeout_range, self.set_timeout, "after how many unidentified bits shell I stop searching?", "counter_slider", float, QtCore.Qt.Horizontal)
         self.top_layout.addWidget(self._timeout_win)
         self.qtgui_time_sink_x_2 = qtgui.time_sink_f(
