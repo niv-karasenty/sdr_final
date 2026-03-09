@@ -24,6 +24,7 @@ from gnuradio.eng_arg import eng_float, intx
 from gnuradio import eng_notation
 from gnuradio import modulator
 import numpy as np
+import sip
 import threading
 
 
@@ -64,19 +65,54 @@ class noised(gr.top_block, Qt.QWidget):
         ##################################################
         # Variables
         ##################################################
-        self.SNR_dB = SNR_dB = 1
+        self.SNR_dB = SNR_dB = 10
         self.timeout = timeout = 8
         self.threshold = threshold = 0.15
         self.t = t = 0.01
         self.samp_rate = samp_rate = 32000
         self.input_str = input_str = 'AAAA'
-        self.f_delta = f_delta = 75000
+        self.f_delta = f_delta = 1e3
         self.SNR_lin = SNR_lin = np.pow(10,(SNR_dB/10))
 
         ##################################################
         # Blocks
         ##################################################
 
+        self.qtgui_waterfall_sink_x_0 = qtgui.waterfall_sink_c(
+            1024, #size
+            window.WIN_BLACKMAN_hARRIS, #wintype
+            0, #fc
+            samp_rate, #bw
+            "", #name
+            1, #number of inputs
+            None # parent
+        )
+        self.qtgui_waterfall_sink_x_0.set_update_time(0.10)
+        self.qtgui_waterfall_sink_x_0.enable_grid(False)
+        self.qtgui_waterfall_sink_x_0.enable_axis_labels(True)
+
+
+
+        labels = ['', '', '', '', '',
+                  '', '', '', '', '']
+        colors = [0, 0, 0, 0, 0,
+                  0, 0, 0, 0, 0]
+        alphas = [1.0, 1.0, 1.0, 1.0, 1.0,
+                  1.0, 1.0, 1.0, 1.0, 1.0]
+
+        for i in range(1):
+            if len(labels[i]) == 0:
+                self.qtgui_waterfall_sink_x_0.set_line_label(i, "Data {0}".format(i))
+            else:
+                self.qtgui_waterfall_sink_x_0.set_line_label(i, labels[i])
+            self.qtgui_waterfall_sink_x_0.set_color_map(i, colors[i])
+            self.qtgui_waterfall_sink_x_0.set_line_alpha(i, alphas[i])
+
+        self.qtgui_waterfall_sink_x_0.set_intensity_range(-140, 10)
+
+        self._qtgui_waterfall_sink_x_0_win = sip.wrapinstance(self.qtgui_waterfall_sink_x_0.qwidget(), Qt.QWidget)
+
+        self.top_layout.addWidget(self._qtgui_waterfall_sink_x_0_win)
         self.modulator_modulator_0 = modulator.modulator(t, int(samp_rate), input_str)
         self.modulator_demodulate_0 = modulator.demodulate(t, int(samp_rate), threshold, timeout)
         self.blocks_throttle2_0 = blocks.throttle( gr.sizeof_float*1, samp_rate, True, 0 if "auto" == "auto" else max( int(float(0.1) * samp_rate) if "auto" == "time" else int(0.1), 1) )
@@ -99,6 +135,7 @@ class noised(gr.top_block, Qt.QWidget):
         ##################################################
         self.connect((self.analog_fm_demod_cf_0, 0), (self.modulator_demodulate_0, 0))
         self.connect((self.analog_frequency_modulator_fc_0, 0), (self.blocks_add_xx_0, 1))
+        self.connect((self.analog_frequency_modulator_fc_0, 0), (self.qtgui_waterfall_sink_x_0, 0))
         self.connect((self.analog_noise_source_x_0, 0), (self.blocks_add_xx_0, 0))
         self.connect((self.blocks_add_xx_0, 0), (self.analog_fm_demod_cf_0, 0))
         self.connect((self.blocks_throttle2_0, 0), (self.analog_frequency_modulator_fc_0, 0))
@@ -146,6 +183,7 @@ class noised(gr.top_block, Qt.QWidget):
         self.analog_frequency_modulator_fc_0.set_sensitivity((2*np.pi*self.f_delta/self.samp_rate))
         self.analog_noise_source_x_0.set_amplitude((1/(self.SNR_lin*self.samp_rate)))
         self.blocks_throttle2_0.set_sample_rate(self.samp_rate)
+        self.qtgui_waterfall_sink_x_0.set_frequency_range(0, self.samp_rate)
 
     def get_input_str(self):
         return self.input_str
